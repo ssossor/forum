@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 2vh 2vw;
+}
+
+nav {
+    background-color: aquamarine;
+    margin: 2vh 2vw;
+    font-size: 2vh;
+    border-radius: 3vh;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: lightblue;
+    margin:  1vw;
+    padding: 2vh 2vw;
+    border-radius: 2vh;
+}
+
+nav .left {
+    width: 60%;
+    text-align: left;
+}
+
+nav .right {
+    width: 40%;
+    text-align: right;
+}
+
+aside {
+    background-color: aquamarine;
+    margin: 2vh 2vw;
+    font-size: 2vh;
+    border-radius: 3vh;
+}
+
+aside article {
+    display: inline-block;
+    background-color: lightblue;
+    margin:  1vw;
+    padding: 2vh 2vw;
+    border-radius: 2vh;
+}
+
+main {
+    background-color: aquamarine;
+    margin: 2vh 2vw;
+    font-size: 2vh;
+    border-radius: 3vh;
+}
+
+main article {
+    display: inline-block;
+    background-color: lightblue;
+    margin:  1vw;
+    padding: 2vh 2vw;
+    border-radius: 2vh;
+}
+
+main article h2 {
+    margin-bottom: 1vh;
+}
+
+main article p {
+    margin-bottom: 3vh;
+}
+
+main article span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: aquamarine;
+    margin: 2vh 2vw;
+    font-size: 2vh;
+    border-radius: 3vh;
+}
+
+footer article {
+    display: inline-block;
+    background-color: lightblue;
+    margin:  1vw;
+    padding: 2vh 2vw;
+    border-radius: 2vh;
+}
+
+input {
+    width: 20vw;
+    padding: 0 1vw;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    margin-top: 3vh;
+}
+
+input[type=submit] {
+    margin-top: 1vh;
+}

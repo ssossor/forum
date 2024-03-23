@@ -1,0 +1,8 @@
+//Notes de commandes pour setup la base de données
+
+
+DROP DATABASE forum;
+CREATE DATABASE forum;
+CREATE TABLE accounts(id INT(11) PRIMARY KEY AUTO_INCREMENT, username VARCHAR(40), email VARCHAR(60), password VARCHAR(64), isadmin INT(1));
+CREATE TABLE subjects(id INT(11) PRIMARY KEY AUTO_INCREMENT, idauthor INT(11), title TEXT, description TEXT);
+CREATE TABLE messages(id INT(11) PRIMARY KEY AUTO_INCREMENT, idauthor INT(11), idsubject INT(11), content TEXT);
